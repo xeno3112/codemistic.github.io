@@ -1,0 +1,286 @@
+/* UTILITIES */
+
+body {
+    font-family: 'Varela Round', sans-serif;
+    text-align: left;
+    background-color: #eeeeee;
+}
+
+p {
+    font-size: 1.1rem;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    line-height: 1.5;
+}
+
+.container-fluid {
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.languages,
+.features,
+.company,
+.roadmaps,
+.how,
+.events {
+    width: 85%;
+    margin-top: 5%;
+    padding: 3%;
+    text-align: center;
+}
+
+.row {
+    margin-left: 13px;
+    margin-right: -6px;
+}
+
+hr {
+    border-color: rgb(68, 64, 64);
+    width: 30%;
+}
+
+.roadmap-header {
+    margin-bottom: 4%;
+    font-size: 2.3rem;
+}
+
+
+/* navbar */
+
+.navbar {
+    background-color: steelblue;
+    position: sticky;
+}
+
+.nav-item {
+    padding: 0 18px;
+    font-family: 'Ubuntu', sans-serif;
+    color: rgba(211, 209, 207, 0.904);
+}
+
+.navbar-brand {
+    font-family: 'Kalam', cursive;
+    font-weight: bold;
+    font-size: 2.3rem;
+    padding-left: 1.2%;
+}
+
+
+/* HEADER */
+
+.heading {
+    background-color: steelblue;
+    color: white;
+    padding: 2%;
+}
+
+.header {
+    font-size: 2rem;
+    font-style: 'Ubuntu', sans-serif;
+    font-weight: 400;
+    padding-bottom: 8px;
+}
+
+.header-content {
+    padding-bottom: 2%;
+    color: rgba(219, 221, 223, 0.719);
+}
+
+.btn {
+    margin-top: 2%;
+}
+
+.icons {
+    padding-left: 15px;
+}
+
+.links {
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+
+/* Computer image */
+
+.computer {
+    width: 80%;
+}
+
+.header-img {
+    padding-left: 10%;
+}
+
+
+/* Company section */
+
+.company {
+    /* background-color: #a3b1f1b4; */
+    border-radius: 10px;
+    margin-bottom: 3%;
+}
+
+.company img {
+    margin-top: 1%;
+    margin-left: 8%;
+}
+
+
+/* Events section */
+
+.event-card {
+    /* width: 200px; */
+    height: 300px;
+}
+
+
+/* Roadmap section */
+
+.roadmaps a {
+    color: black;
+}
+
+.web {
+    width: 40%;
+}
+
+.app {
+    width: 55%;
+}
+
+.comp {
+    width: 82%;
+}
+
+.card {
+    padding: 2%;
+    width: 96%;
+    box-shadow: 1px 1px 5px 3px #9babf0b7;
+    margin-top: 10px;
+}
+
+
+/* Language section */
+
+.languages a {
+    color: blue;
+}
+
+.language-card:hover {
+    box-shadow: 1px 1px 5px 3px #94a5f1ea;
+}
+
+.python {
+    width: 37%;
+}
+
+.cpp {
+    width: 60%;
+}
+
+
+/* Explore All programming languages section */
+
+.but {
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+
+/* Feature section */
+
+.features {
+    margin-top: 3%;
+}
+
+.feature-card-header {
+    font-weight: bold;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.feature-card-content {
+    color: rgba(128, 128, 128, 0.842);
+    font-weight: 300;
+}
+
+.content,
+.availability,
+.hero {
+    width: 30%;
+}
+
+.limits {
+    width: 50%;
+}
+
+
+/* Mail Section*/
+
+.how {
+    margin-top: 3%;
+}
+
+.mail {
+    color: blue;
+    text-decoration: none;
+}
+
+.mail:hover {
+    color: rgba(0, 0, 255, 0.753);
+}
+
+
+/* Footer Section */
+
+footer {
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    background-color: steelblue;
+    padding: 2%;
+}
+
+.footer-links {
+    margin-bottom: 1%;
+}
+
+
+/* Team section */
+
+.team {
+    text-align: center;
+    padding: 3%;
+}
+
+.team a {
+    color: blue;
+}
+
+.team-card:hover {
+    box-shadow: 1px 1px 5px 3px #94a5f1ea;
+}
+
+.team_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+}
