@@ -5,7 +5,13 @@ body {
     background-color: #eeeeee;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
     line-height: 1.5;
 }
 
@@ -28,6 +34,7 @@ hr {
     margin-right: 0;
 }
 
+
 /* navbar */
 
 .navbar {
@@ -48,11 +55,13 @@ hr {
     padding-left: 1.2%;
 }
 
+
 /* HEADING section */
 
 .header {
     background-color: #bbe1fab9;
     padding: 3% 5%;
+    position: sticky;
 }
 
 .lang-img {
@@ -71,19 +80,22 @@ hr {
 }
 
 .header-heading {
-    font-family: 'Ubuntu', sans-serif;
+    font-family: "euclid_circular_a", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
     font-size: 2.5rem;
     font-weight: bold;
 }
+
 
 /* Nav Tabs */
 
 .nav-tab-tutorial {
     margin-left: 33%;
 }
+
 .nav-tabs-li {
     padding: 0 1%;
 }
+
 .nav-tab-link {
     color: black;
     font-size: 1.2rem;
@@ -92,6 +104,7 @@ hr {
 .nav-pills {
     background-color: #bbe1fab9;
 }
+
 
 /* Side navbar */
 
@@ -126,7 +139,8 @@ hr {
     border-radius: 3px;
 }
 
-.cpp-intro, .cpp {
+.cpp-intro,
+.cpp {
     display: flex;
     flex-direction: column;
     box-shadow: 1px 1px 5px 3px #c2c2c5b7;
@@ -135,6 +149,7 @@ hr {
     border-radius: 3px;
     padding: 5%;
 }
+
 
 /* content sections */
 
@@ -148,6 +163,7 @@ hr {
     display: flex;
     padding: 3% 10%;
 }
+
 
 /* Footer Section */
 
@@ -167,6 +183,7 @@ footer {
 .icons {
     padding-left: 15px;
 }
+
 
 /* Media queries */
 

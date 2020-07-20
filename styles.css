@@ -39,10 +39,9 @@ p {
 .features,
 .company,
 .roadmaps,
-.how,
-.events {
+.how {
     width: 85%;
-    margin-top: 5%;
+    margin-top: 1%;
     padding: 3%;
     text-align: center;
 }
@@ -73,7 +72,7 @@ hr {
 .nav-item {
     padding: 0 18px;
     font-family: 'Ubuntu', sans-serif;
-    color: rgba(211, 209, 207, 0.904);
+    color: htrgba(211, 209, 207, 0.904);
 }
 
 .navbar-brand {
@@ -145,33 +144,54 @@ hr {
 
 /* Events section */
 
-.event-card {
-    /* width: 200px; */
-    height: 300px;
+
+/* .event-card {
+    width: 20px;
+    height: 10px;
+} */
+
+.events {
+    width: 85%;
+    margin-top: 1%;
+    padding: 2%;
+    text-align: center;
+}
+
+.poster1 {
+    width: 100%;
+    height: 100%;
 }
 
 
 /* Roadmap section */
+
+.roadmaps {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
 
 .roadmaps a {
     color: black;
 }
 
 .web {
+    object-fit: cover;
     width: 40%;
 }
 
 .app {
     width: 55%;
+    object-fit: cover;
 }
 
 .comp {
-    width: 82%;
+    width: 78%;
+    object-fit: cover;
 }
 
 .card {
     padding: 2%;
     width: 96%;
+    height: 95%;
     box-shadow: 1px 1px 5px 3px #9babf0b7;
     margin-top: 10px;
 }
@@ -179,8 +199,12 @@ hr {
 
 /* Language section */
 
+.languages {
+    text-align: center;
+}
+
 .languages a {
-    color: blue;
+    color: white;
 }
 
 .language-card:hover {
@@ -188,11 +212,19 @@ hr {
 }
 
 .python {
-    width: 37%;
+    width: 70%;
 }
 
 .cpp {
-    width: 60%;
+    width: 74%;
+}
+
+.java {
+    width: 47%;
+}
+
+.dsa {
+    width: 35%;
 }
 
 
@@ -283,4 +315,10 @@ footer {
     object-fit: cover;
     border-radius: 50%;
     margin: 0 auto 20px auto;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: steelblue;
+    border-color: steelblue;
 }
