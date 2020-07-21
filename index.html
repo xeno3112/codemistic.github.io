@@ -17,6 +17,10 @@
     <!-- FONTS -->
 
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Ubuntu&family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <!-- Animate on scroll -->
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <!-- Bootstrap -->
 
@@ -116,12 +120,12 @@
         <h4 class="roadmap-header">Events</h4>
         <div class="row card-deck">
             <div class="col-lg-6 col-md-6">
-                <div class="card event-card">
+                <div class="card event-card" data-aos="flip-left" data-aos-duration="1000">
                     <img src="events/1.jpeg" class="poster1">
                 </div>
             </div>
             <div class="col-lg-6 col-md-6">
-                <div class="card event-card ">
+                <div class="card event-card " data-aos="flip-left" data-aos-duration="1000">
                     <img src="events/1.jpeg" class="poster1">
                 </div>
             </div>
@@ -144,7 +148,7 @@
         <h1 class="roadmap-header ">Roadmaps</h1>
         <div class="row card-deck ">
             <div class="col-lg-4 ">
-                <div class="card ">
+                <div class="card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header "><img class="web " src="web.svg " alt=" "></div>
                     <div class="card-body ">
                         <h5>WEB DEVELOPMENT</h5>
@@ -153,7 +157,7 @@
                 </div>
             </div>
             <div class="col-lg-4 ">
-                <div class="card ">
+                <div class="card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header "><img class="app " src="app.svg " alt=" "></div>
                     <div class="card-body ">
                         <h5>APP DEVELOPMENT</h5>
@@ -162,7 +166,7 @@
                 </div>
             </div>
             <div class="col-lg-4 ">
-                <div class="card ">
+                <div class="card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header "><img class="comp " src="competitive.png " alt=" "></div>
                     <div class="card-body ">
                         <h5>COMPETITIVE CODING</h5>
@@ -183,7 +187,7 @@
 
             <div class="col-lg-3 col-md-6 ">
                 <div class="card language-card ">
-                    <div class="card-header ">
+                    <div class="card-header " data-aos="flip-left" data-aos-duration="1000">
                         <img class="cpp " src="logo/cpp.png " alt=" ">
                     </div>
                     <div class="card-body " ">
@@ -193,7 +197,7 @@
             </div>
         </div>
         <div class="col-lg-3 col-md-6 ">
-            <div class="card language-card ">
+            <div class="card language-card " data-aos="flip-left" data-aos-duration="1000">
                 <div class="card-header ">
                     <img class="java " src="logo/java.png " alt=" ">
                 </div>
@@ -205,7 +209,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 ">
-                <div class="card language-card ">
+                <div class="card language-card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header ">
                         <img class="python " src="logo/python.png " alt=" ">
                     </div>
@@ -217,7 +221,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 ">
-                <div class="card language-card ">
+                <div class="card language-card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header ">
                         <img class="dsa " src="logo/dsa.png " alt=" ">
                     </div>
@@ -240,7 +244,7 @@
         <h4 class="roadmap-header ">Features</h4>
         <div class="row card-deck ">
             <div class="col-lg-3 col-md-6 ">
-                <div class="card ">
+                <div class="card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header ">
                         <img class="content " src="features-img/Vector (1).png " alt=" ">
                     </div>
@@ -251,7 +255,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 ">
-                <div class="card ">
+                <div class="card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header ">
                         <img class="availability " src="features-img/Vector.png " alt=" ">
                     </div>
@@ -262,7 +266,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 ">
-                <div class="card ">
+                <div class="card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header ">
                         <img class="hero " src="features-img/Vector (2).png " alt=" ">
                     </div>
@@ -273,7 +277,7 @@
                 </div>
             </div>
             <div class="col-lg-3 col-md-6 ">
-                <div class="card ">
+                <div class="card " data-aos="flip-left" data-aos-duration="1000">
                     <div class="card-header ">
                         <img class="limits " src="features-img/Vector (3).png " alt=" ">
                     </div>
@@ -327,11 +331,16 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js " integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo " crossorigin="anonymous "></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js " integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI " crossorigin="anonymous "></script>
 
+<!--     Animation on scroll --> 
+    
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    
     <script>
         var width = Math.max(window.screen.width, window.innerWidth);
         if (width < 535) {
             document.getElementById("change").innerHTML = " " + "<br>";
         }
+        AOS.init();
     </script>
 </body>
 
