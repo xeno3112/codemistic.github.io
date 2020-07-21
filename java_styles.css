@@ -93,11 +93,10 @@ h2 {
     color: #c18401;
 }
 
-
-/* .para p {
-        padding-left: 100px;
-        padding-right: 150px;
-    } */
+.para {
+    padding-left: 100px;
+    padding-right: 150px;
+}
 
 body {
     font-family: 'Varela Round', sans-serif;
