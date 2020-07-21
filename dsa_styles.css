@@ -19,7 +19,7 @@
 }
 
 .header {
-    background-color: #bbe1fab9;
+    background-color: #c0e3fab9;
     padding: 3% 5%;
     position: sticky;
 }
@@ -31,7 +31,7 @@
 }
 
 .cpp-img {
-    width: 100%;
+    width: 60%;
 }
 
 .languages {
@@ -94,11 +94,11 @@ h2 {
 }
 
 .para {
-    padding-left: 100px;
-    padding-right: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-body {
+.body {
     font-family: 'Varela Round', sans-serif;
     background-color: white;
 }
@@ -123,7 +123,9 @@ p {
     line-height: 1.5;
 }
 
-p {
+p,
+ol,
+.but {
     font-size: 1.1rem;
     color: rgba(88, 90, 92, 0.938);
     padding-left: 5%;
@@ -173,4 +175,20 @@ footer {
 
 .icons {
     padding-left: 15px;
+}
+
+pre {
+    padding: 16px;
+    border-radius: 4px;
+    border: 1px solid #d3dce6;
+    background-color: #f5f5f5;
+    margin-bottom: 16px;
+    overflow: auto;
+    font-family: "Droid Sans Mono", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier", monospace;
+    font-size: 14px;
+    line-height: 20px;
+    width: 1000px;
+    height: fit-content;
+    margin-left: 10px;
+    text-align: left;
 }
