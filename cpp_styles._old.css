@@ -1,0 +1,193 @@
+    /* UTILITIES */
+    
+    body {
+        font-family: 'Varela Round', sans-serif;
+        background-color: white;
+    }
+    
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+        line-height: 1.5;
+    }
+    
+    p {
+        font-size: 1.1rem;
+        color: rgba(88, 90, 92, 0.938);
+    }
+    
+    .container-fluid {
+        padding-left: 0;
+        padding-right: 0;
+    }
+    
+    hr {
+        border-color: rgb(138, 135, 135);
+        width: 100%;
+    }
+    
+    .row {
+        margin-right: 0;
+    }
+    /* navbar */
+    
+    .navbar {
+        background-color: steelblue;
+        position: sticky;
+    }
+    
+    .nav-item {
+        padding: 0 18px;
+        font-family: 'Ubuntu', sans-serif;
+        color: rgba(211, 209, 207, 0.904);
+    }
+    
+    .navbar-brand {
+        font-family: 'Kalam', cursive;
+        font-weight: bold;
+        font-size: 2.3rem;
+        padding-left: 1.2%;
+    }
+    /* HEADING section */
+    
+    .header {
+        background-color: #bbe1fab9;
+        padding: 3% 5%;
+        position: sticky;
+    }
+    
+    .lang-img {
+        margin-left: 6%;
+        margin-top: 3%;
+        padding-bottom: 2%;
+    }
+    
+    .cpp-img {
+        width: 100%;
+    }
+    
+    .header-content {
+        margin-left: 6%;
+    }
+    
+    .header-heading {
+        font-family: "euclid_circular_a", "Source Sans Pro", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+        font-size: 2.5rem;
+        font-weight: bold;
+    }
+    /* Nav Tabs */
+    /* .nav-tab-tutorial {
+    margin-left: 33%;
+} */
+    
+    .nav-tabs-li {
+        padding: 0 1%;
+    }
+    
+    .nav-tab-link {
+        color: black;
+        font-size: 1.2rem;
+    }
+    
+    .nav-pills {
+        background-color: #bbe1fab9;
+    }
+    /* Side navbar */
+    
+    .sidenav-section {
+        text-align: left;
+        display: flex;
+        padding: 5% 10%;
+    }
+    
+    .sidenav {
+        border-radius: 10px;
+        box-shadow: 1px 1px 5px 3px #c2c2c5b7;
+        display: flex;
+        flex-direction: column;
+        height: 390px;
+        overflow-x: hidden;
+        padding: 8px 0;
+        width: 250px;
+    }
+    
+    .sidenav a {
+        padding: 6px 5px 3px 16px;
+        text-decoration: none;
+        font-size: 1.3rem;
+        color: #2196F3;
+        display: block;
+    }
+    
+    .sidenav a:hover {
+        color: rgba(88, 90, 92, 0.938);
+        border-left: 4px solid #2196F3 !important;
+        border-radius: 3px;
+    }
+    
+    .cpp-intro,
+    .cpp {
+        display: flex;
+        flex-direction: column;
+        box-shadow: 1px 1px 5px 3px #c2c2c5b7;
+        width: 60%;
+        margin-left: 10%;
+        border-radius: 3px;
+        padding: 5%;
+    }
+    /* content sections */
+    
+    .cpp {
+        position: relative;
+        left: 255px;
+        width: 60%;
+    }
+    
+    .wrapper {
+        display: flex;
+        padding: 3% 10%;
+    }
+    /* Footer Section */
+    
+    footer {
+        color: white;
+        font-family: 'Ubuntu', sans-serif;
+        text-align: center;
+        background-color: steelblue;
+        padding: 2%;
+        margin-top: 3%;
+    }
+    
+    .footer-links {
+        margin-bottom: 1%;
+    }
+    
+    .icons {
+        padding-left: 15px;
+    }
+    /* Media queries */
+    
+    @media only screen and (max-width: 1024px) {
+        .sidenav {
+            display: none;
+        }
+        .cpp-intro {
+            width: 100%;
+            margin-left: 0;
+        }
+        .cpp {
+            position: static;
+            width: 80%;
+        }
+        .wrapper {
+            padding-left: 0;
+            padding-right: 0;
+        }
+        .nav-tab-tutorial {
+            margin-left: 0%;
+        }
+    }

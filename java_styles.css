@@ -35,12 +35,69 @@
 }
 
 .languages {
-    padding-top: 3%;
     width: fit-content;
+    margin: 5%;
+}
+
+.card {
+    background-color: rgba(241, 241, 241, 0.788);
 }
 
 
 /* UTILITIES */
+
+.editor-contents code,
+.editor-contents samp,
+.editor-contents var {
+    border: 1px solid #d3dce6;
+    background-color: #f5f5f5;
+    padding: 0 8px;
+    border-radius: 4px;
+    font-style: normal;
+    font-family: "Droid Sans Mono", "Inconsolata", "Menlo", "Consolas", "Bitstream Vera Sans Mono", "Courier", monospace;
+    display: inline-block;
+    line-height: 24px;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+h5,
+h2 {
+    text-align: center;
+}
+
+.hljs {
+    display: block;
+    overflow-x: auto;
+    padding: .5em;
+    color: #383a42;
+    background: #fafafa;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+    color: #4078f2;
+}
+
+.hljs-comment,
+.hljs-quote {
+    color: #a0a1a7;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+    color: #c18401;
+}
+
+
+/* .para p {
+        padding-left: 100px;
+        padding-right: 150px;
+    } */
 
 body {
     font-family: 'Varela Round', sans-serif;
@@ -88,16 +145,11 @@ hr {
     margin-right: 0;
 }
 
-.languages {
-    padding-top: 5%;
-}
-
 .card {
     padding: 2%;
     width: 96%;
     height: 95%;
     box-shadow: 1px 1px 5px 3px #9babf0b7;
-    margin-top: 10px;
 }
 
 
