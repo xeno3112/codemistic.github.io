@@ -141,6 +141,10 @@ a:hover {
     background-color: white;
 }
 
+a {
+    color: steelblue;
+}
+
 .but a {
     color: white
 }
