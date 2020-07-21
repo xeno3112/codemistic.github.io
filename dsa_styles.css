@@ -1,3 +1,46 @@
+/* Utilities */
+
+body {
+    text-align: left;
+}
+
+hr {
+    margin: 50px auto;
+    border-color: rgb(138, 135, 135);
+    width: 50%;
+}
+
+h1,
+h2,
+h3,
+h5,
+h6 {
+    margin: 50px auto;
+    line-height: 1.5;
+    text-align: left;
+}
+
+p {
+    line-height: 1.5;
+    text-align: left;
+    font-size: 1.1rem;
+    color: rgba(88, 90, 92, 0.938);
+}
+
+strong {
+    margin: 40px auto;
+}
+
+.wrapper {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+
 /* navbar */
 
 .navbar {
@@ -61,11 +104,6 @@
     line-height: 20px;
 }
 
-h5,
-h2 {
-    text-align: center;
-}
-
 .hljs {
     display: block;
     overflow-x: auto;
@@ -104,7 +142,7 @@ h2 {
 }
 
 .but a {
-    color: white;
+    color: white
 }
 
 .btn-primary {
@@ -113,33 +151,18 @@ h2 {
     border-color: steelblue;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-    line-height: 1.5;
-}
-
-p,
-ol,
 .but {
     font-size: 1.1rem;
     color: rgba(88, 90, 92, 0.938);
     padding-left: 5%;
     padding-right: 5%;
+    margin-bottom: 50px;
+    margin-top: 15px;
 }
 
 .container-fluid {
     padding-left: 0;
     padding-right: 0;
-}
-
-hr {
-    border-color: rgb(138, 135, 135);
-    width: 50%;
 }
 
 .row {
@@ -153,6 +176,10 @@ hr {
     box-shadow: 1px 1px 5px 3px #9babf0b7;
 }
 
+.pre-footer {
+    text-align: center;
+}
+
 
 /* footer*/
 
@@ -163,6 +190,12 @@ footer {
     background-color: steelblue;
     padding: 2%;
     margin-top: 3%;
+    text-align: center;
+}
+
+.foot-header {
+    margin-bottom: 8px;
+    margin-top: 0;
 }
 
 .footer-links {
@@ -170,6 +203,7 @@ footer {
 }
 
 .foot {
+    text-align: center;
     color: white;
 }
 
