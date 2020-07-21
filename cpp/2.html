@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C++ Programming</title>
+
+    <!-- Favicon -->
+
+    <link rel="icon" type="img/png" href="../favicon.png">
+
+    <!-- FONT AWESOME -->
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+        integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+    <!-- FONTS -->
+
+    <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@700&family=Ubuntu&family=Varela+Round&display=swap"
+        rel="stylesheet">
+
+    <!-- Bootstrap -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- CSS -->
+
+    <link rel="stylesheet" href="../cpp_styles.css">
+</head>
+
+<body>
+
+    <!-- NAVIGATION BAR -->
+
+    <nav class="navbar fixed-top navbar-expand-xl navbar-dark">
+        <a class="navbar-brand" href="../index.html">CODEMISTIC</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                <!-- <li class="nav-item">
+                            <a class="nav-link" href="#features">Features</a>
+                        </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../tutorials.html">Tutorials<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../campus.html">Campus Programme</a>
+                </li>
+                <!-- <li class="nav-item">
+                        <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSc2O28YJpxQc6kh2tKpI_Lf5MwfwGXVnhMs0g5EEXobJ4Beeg/viewform?usp=sf_link" target="_blank">Contribute</a>
+                    </li> -->
+                <li class="nav-item">
+                    <a class="nav-link" href="../team.html">Our Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="../register.html">Join Our Community</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <!-- HEADING -->
+    <br>
+
+    <h2>Basic Input/Output</h2>
+    <p>C++ has a set of libraries which provides use different ways to perform input and output operations.
+        C++ input and output is performed in a sequence of streams and also known as Bytes.</p>
+
+    <h3>Input Stream :-</h3>
+    <p> The process when the direction of flow of stream is from the
+        device to the main memory is called as input .
+        Example - Keyboard input,mouse input.</p>
+    <h3>Output Stream :-</h3>
+    <p> The process when the direction of flow of stream is from the
+        device to the main memory is called as input .
+        Example - Monitor display.</p>
+
+    <p>C++ has three types of standard libraries for input / output operations.</p>
+
+    <h3>iostream :-</h3>
+
+    <p>iostream is known as standard input-output stream.This library contains cin , cout etc.</p>
+
+    <table>
+        <tr>
+            <th>Stream</th>
+            <th>Description</th>
+        </tr>
+        <tr>
+            <td>cin</td>
+            <td>Standard input stream</td>
+        </tr>
+        <tr>
+            <td>cout</td>
+            <td>Standard output stream</td>
+        </tr>
+        <tr>
+            <td>cerr</td>
+            <td>Standard error (output) stream</td>
+        </tr>
+        <tr>
+            <td>clog</td>
+            <td>Standard logging (output) stream</td>
+        </tr>
+    </table>
+
+    <p>
+
+        Example -
+        cout << "First" << endl; cout << "Second" << endl; </p> <p>
+            cin and cout are the most basic methods to take input and and
+            printing output. We have to include header file iostream to use
+            cin and cout.
+
+    </p>
+    <h3>Note :-</h3>
+    <p>The standard way to use any library definition is by including std:: as
+        a prefix to it. In order to use the method without including std::
+        we will use using namespace std.
+        It stands for using namespace standard which is self
+        Explanatory.
+    </p>
+
+    <h3>cin :-</h3>
+
+    <p> cin statement is the instance of the class istream and is used to
+        read input from the input device (generally keyboard).
+        The extraction operator (>>) is used with cin to take inputs.
+    </p>
+
+    <h3>cout :-</h3>
+
+    <p> cout statement is the instance of the class ostream and is used to
+        produce output on the standard input device ( generally monitor).
+        The insertion operator (<<) is used with cout to display data on the screen. </p> <h3>
+            Fun Fact :-</h3>
+            <p> For faster output, use “\n” instead of endl because endl flushes the stream.</p>
+
+            <h3>iomanip :-</h3>
+            <p> Iomanip is known as input output manipulators.They are
+                used to manipulate streams . </p>
+
+            <h3>fstream :-</h3>
+            <p> fstream denotes the file stream.This header file is used
+                to handle data which is read from a file as input or data
+                which is written into the file as output.
+            </p>
+
+            <h3>Taking multiple inputs in C++ :-</h3>
+
+            <p>char a;
+                int num;
+
+                cout << "Enter a character and an integer: " ; cin>> a >> num;</p>
+
+            <h3>Producing multiple outputs in C++ :-</h3>
+            <p>
+                cout << "Character: " << a << endl; cout << "Number: " << num; </p> <br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <button class="btn btn-primary pull-right"><a href="2.html">Next Topic&nbsp;<i
+                                class="fas fa-arrow-right "></i></a></button>
+                    <br>
+                    </section>
+                    <center><br>
+                        <h5>More Topics Uploading soon...</h5>
+                        <hr>
+                        <h7>Do you want to contribute by preparing content for us :</h7>
+
+                        <div class=" but ">
+                            <button class="btn btn-md btn-primary "><a
+                                    href="https://docs.google.com/forms/d/e/1FAIpQLSc2O28YJpxQc6kh2tKpI_Lf5MwfwGXVnhMs0g5EEXobJ4Beeg/viewform?usp=sf_link "
+                                    target="_blank ">Contribute</a></button>
+                        </div>
+                    </center>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                    <footer class="container-fluid ">
+                        <h4>Made with <i style="color:red " class="fa fa-heart "></i> By - Team CodeMistic</h4>
+                        <p class="foot">&#169 Copyright : Team CodeMistic</p>
+                        <div class="footer-links ">
+                            <h7>Connect With Us</h7><br><br>
+                            <a href="https://www.facebook.com/codemistic " target="_blank "><i
+                                    class="icons fa-2x fab fa-facebook " style="color:#3b5998; "></i></a>
+                            <a href="https://www.instagram.com/codemistic " target="_blank "><i
+                                    class="icons fa-2x fab fa-instagram " style="color:#e95950; "></i></a>
+                            <a href="https://www.twitter.com/codemistic " target="_blank "><i
+                                    class="icons fa-2x fab fa-twitter " style="color:#8accf5; "></i></a>
+                            <a href="https://www.linkedin.com/company/codemistic " target="_blank "><i
+                                    class="icons fa-2x fab fa-linkedin " style="color:#88b3ee; "></i></a>
+                            <a href="https://t.me/codemistic " target="_blank "><i class="icons fa-2x fab fa-telegram "
+                                    style="color:#65adda; "></i></a>
+
+                            <a href="https://www.youtube.com/channel/UCS1Iv_kkgQGDwoXtvrlwlag " target="_blank "><i
+                                    class="icons fa-2x fab fa-youtube " style="color:red; "></i></a>
+                        </div>
+                    </footer>
+
+
+
+
+
+
+
+
+
+                    <!-- CSS Scripts -->
+                    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js "
+                        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj "
+                        crossorigin="anonymous ">
+                    </script>
+                    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js "
+                        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo "
+                        crossorigin="anonymous ">
+                    </script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js "
+                        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI "
+                        crossorigin="anonymous ">
+                    </script>
+
+</body>
+
+</html>
